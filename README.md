@@ -1,3 +1,4 @@
+# KTO Trainer
 Things to be mindful of for KTOTraining 
 1) KTOTrainer does not work for latest versions of torch( 2.8.0 onwards). When downgrading torch, we need to downgrade torchvision and torchtext as well. Thankfully, You can change the runtime version in GPU selection section of colab. Choose the penultimate version. If you are working in Kaggle, no changes are needed.
 
