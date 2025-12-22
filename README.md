@@ -10,3 +10,14 @@ Things to be mindful of for KTOTraining
 ## ORPO Trainer
 
 If you are facing a zip error, please try updating all of the libraries. There was a bug related to strict parameter for zip func, which is fixed
+
+
+## GRPO Trainer
+
+Zero Loss shown by GRPO is not a problem. Use Wandb to record metrics. If it shows gradient , then it is fine. 
+
+Refer:
+
+-> https://huggingface.co/datasets/John6666/forum3/blob/main/grpo_0_loss_issue_1.md
+
+-> https://huggingface.co/datasets/John6666/forum3/blob/main/grpo_0_loss_issue_2.md
