@@ -1,5 +1,6 @@
 Tips 
 1) Connect to wandb to log metrics. This can help for debugging.
+   
 To manage GPU memory
 1) Clean dataset to remove huge prompts
 2) Tune per_device_train_batch_size and gradient_accumulation_steps
